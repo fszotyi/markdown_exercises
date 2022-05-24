@@ -18,11 +18,13 @@
 
 ---
 
-## Bold And Italic
+## Txt
 
 _Italic text here_
 
 **Bold text here** 
+
+~~Strikethrough text~~
 
 Testing a line break right  
 there^
@@ -52,13 +54,15 @@ there^
 
 Check out [Some random link](https://randomuser.me/)
 
-![Random Image](https://picsum.photos/200/300)
+![Random Image](https://picsum.photos/200/300 "Title is optional")
 
 ---
 
 ## Code, Code Blocks And Block Qoutes
 
 `$some_variable`
+
+ `code()`
 
 ```markdown
 # Code Example
@@ -82,6 +86,15 @@ public function update(StoreContribuabilForm $request, Contribuabil $contribuabi
 >> Nested Blockquote
 
 ---
+## Table
+
+Test | Table
+:---: | :---:
+How   | cool
+this  | compiler 
+is |
+
+---
 
 ## Others
 
@@ -95,8 +108,8 @@ public function update(StoreContribuabilForm $request, Contribuabil $contribuabi
      <p>Day 2 onboarding procedure</p>
 </details>
 
-[GO TO TOP](#up)
-
 :thumbsup:    
+
+[GO TO TOP](#up)
     
 ---
