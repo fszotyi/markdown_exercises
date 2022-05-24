@@ -1,4 +1,4 @@
-# -=Markdown_exercises=-
+# -=Markdown_exercises=-<a name="up"></a> 
 
 # Level 1 Heading
 
@@ -40,6 +40,10 @@ there^
     - Some info from item 4
     - Another info from item 4
 
+- [ ] Day 2 onboarding
+        - [x] Learning markdown basics
+        - [ ] Further .... 
+
 ---
 
 ## Links And Images
@@ -50,3 +54,45 @@ Check out [Some random link](https://randomuser.me/)
 
 ---
 
+## Code, Code Blocks And Block Qoutes
+
+`$some_variable`
+
+```markdown
+# Code Example
+$contribuabil->idUser = Auth::user()->id;
+$contribuabil->save(); // lementi idUser infot 
+```
+
+```php
+public function update(StoreContribuabilForm $request, Contribuabil $contribuabil)
+    {
+        $request->validated();
+        $contribuabil->fill(request()->all());
+        $contribuabil->idUser = Auth::user()->id;
+        $contribuabil->save();
+
+        return redirect('contribuabil')->with('search', request()->get('nrROL'));
+    }
+```
+
+> Blockquote.
+>> Nested Blockquote
+
+---
+
+<details>
+    <summary>Day 1</summary>
+    <p>Day 1 onboarding procedure</p>
+</details>
+    
+<details>
+     <summary>Day 2</summary>
+     <p>Day 2 onboarding procedure</p>
+</details>
+
+[GO TO TOP](#up)
+
+:thumbsup:    
+    
+---
