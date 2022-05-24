@@ -41,9 +41,11 @@ there^
     - Another info from item 4
 
 - [ ] Day 2 onboarding
-            - [x] Learning markdown basics
-            - [ ] Further .... 
-
+    - [x] Learning markdown basics
+    - [x] Opening my first issue
+    - [x] Learn how to log time
+    - [ ] Awaiting further instructions
+               
 ---
 
 ## Links And Images
