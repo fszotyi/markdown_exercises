@@ -92,7 +92,7 @@ Test | Table
 :---: | :---:
 How   | cool
 this  | compiler 
-is |
+is | :smile:
 
 ---
 
