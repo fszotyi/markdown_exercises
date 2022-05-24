@@ -41,8 +41,8 @@ there^
     - Another info from item 4
 
 - [ ] Day 2 onboarding
-        - [x] Learning markdown basics
-        - [ ] Further .... 
+            - [x] Learning markdown basics
+            - [ ] Further .... 
 
 ---
 
