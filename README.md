@@ -83,6 +83,8 @@ public function update(StoreContribuabilForm $request, Contribuabil $contribuabi
 
 ---
 
+## Others
+
 <details>
     <summary>Day 1</summary>
     <p>Day 1 onboarding procedure</p>
