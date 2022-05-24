@@ -1,4 +1,4 @@
-# markdown_exercises
+# -=Markdown_exercises=-
 
 # Level 1 Heading
 
@@ -33,19 +33,18 @@ there^
 
 1. Item 1
 2. Item 2
-  1.  Item 1 of Item 2
-  2.  and so on
+    1. Sub-Item 1 of Item 2
+    2. Sub-Item 2 of Item 2
 3. Item 3
 4. Item 4
-  - Some info from item 4  
-  - Another info from item 4
-5. Item 5
+    - Some info from item 4
+    - Another info from item 4
 
 ---
 
 ## Links And Images
 
-Checkk out [Some random link](https://randomuser.me/)
+Check out [Some random link](https://randomuser.me/)
 
 ![Random Image](https://picsum.photos/200/300)
 
